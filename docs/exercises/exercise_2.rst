@@ -62,6 +62,16 @@ It should be immediately evident that creating new tweets with our API is much h
 
 And our server's task is complicated by the fact that the list of tweets (hit in our second task) keeps growing as our tests go on. If you watch closely, you may be able to see performance steadily decrease as the database fills up with more and more data.
 
+.. note::
+
+    Ahead of the class? Check out the `task weighting <http://docs.locust.io/en/latest/writing-a-locustfile.html#declaring-tasks>` concept in Locust.
+
+    In our current TaskSet, our locusts will make new tweets just as often as they request the list of tweets and the API root.
+
+    That's not really accurate. In truth, our users will probably make new tweets 1/10th as often as they request the list of tweets.
+
+    **Add task weights to our locustfile to reflect this user behavior.**
+
 Wrap-up
 -------
 
