@@ -6,10 +6,21 @@
 Lightning Locust Workshop (May 2015)
 ====================================
 
-Contents:
+This approximately 20 minute workshop will show you how to use `Locust <http://locust.io/>`_, an approachable and scalable load testing tool written in Python.
+
+.. image:: /_static/locust.png
+
+Get started
+-----------
+
+Ready to get started? Head on over to :doc:`exercises/exercise_0`.
+
+
+Table of contents
+-----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    exercises/exercise_0
    exercises/exercise_1
