@@ -10,7 +10,11 @@ Before we can start load testing our site with Locust, we need to point it at th
 
 Go to the Google Spreadsheet below and pick out one of the servers. Put your name in column B, and then copy the hostname in column A.
 
-Open up ``locustfile.py`` in your development environment and find the ``host`` property of the ``WebsiteUser`` class. Use your hostname from the spreadsheet as the value for that property and save your locustfile.
+https://docs.google.com/spreadsheets/d/1bHNLewapR6mrgpk1V5VYPFaBJXYMKF7KHZ4a0XnWP00/edit?usp=sharing
+
+Open up ``locustfile.py`` in your development environment and find the ``host`` property of the ``WebsiteUser`` class. Set that ``host`` property to ``http://YOUR_HOSTNAME_HERE``
+
+Use your hostname from the spreadsheet as the value for that property and save your locustfile.
 
 You should also take a moment to check out the TweetCheck API, which is what we'll be testing. TweetCheck uses the `Django REST Framework <http://www.django-rest-framework.org/>`_ project, which includes an excellent web browsable API.
 

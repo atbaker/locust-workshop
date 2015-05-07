@@ -64,7 +64,7 @@ And our server's task is complicated by the fact that the list of tweets (hit in
 
 .. note::
 
-    Ahead of the class? Check out the `task weighting <http://docs.locust.io/en/latest/writing-a-locustfile.html#declaring-tasks>` concept in Locust.
+    Ahead of the class? Check out the `task weighting <http://docs.locust.io/en/latest/writing-a-locustfile.html#declaring-tasks>`_ concept in Locust.
 
     In our current TaskSet, our locusts will make new tweets just as often as they request the list of tweets and the API root.
 
