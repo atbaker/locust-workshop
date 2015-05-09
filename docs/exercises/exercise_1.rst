@@ -12,6 +12,12 @@ Go to the Google Spreadsheet below and pick out one of the servers. Put your nam
 
 https://docs.google.com/spreadsheets/d/1bHNLewapR6mrgpk1V5VYPFaBJXYMKF7KHZ4a0XnWP00/edit?usp=sharing
 
+.. warning::
+
+    If you're not doing this workshop in person with me, you will need to stand up your own TweetCheck API server.
+
+    `Follow the instructions in the "Quickstart" section of the TweetCheck repo README. <https://github.com/atbaker/tweetcheck>`_
+
 Open up ``locustfile.py`` in your development environment and find the ``host`` property of the ``WebsiteUser`` class. Set that ``host`` property to ``http://YOUR_HOSTNAME_HERE``
 
 Use your hostname from the spreadsheet as the value for that property and save your locustfile.
